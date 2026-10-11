@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>graph_search_contact_planner</name>
+  <version>0.0.0</version>
+  <description>Pinocchio graph search for contact planning.</description>
+  <maintainer email="t-hiraoka@jsk.imi.i.u-tokyo.ac.jp">Takuma-Hiraoka</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>pinocchio</depend>
+  <depend>graph_search</depend>
+  <depend>ik_constraint</depend>
+  <depend>ik_constraint_esdf</depend>
+  <depend>ik_constraint_scfr</depend>
+  <depend>global_inverse_kinematics_solver</depend>
+  <depend>prioritized_inverse_kinematics_solver</depend>
+  <depend>mujoco_viewer</depend>
+  <depend>eigen</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
